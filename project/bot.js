@@ -45,7 +45,7 @@ if(resu==prefix+"test"){
       ctx.rotate(0);
       ctx.fillText(mes.author.username, 100, 350);
       let attachment = new Discord.Attachment(canvas.toBuffer());
-     mes.channel.send(`test ${prof.src}`,attachment);
+     mes.channel.send(`test`,attachment);
 })
 }
 
